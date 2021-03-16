@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maocilai</title>
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="icon" href="img/medal.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        #container
+        {
+            height:1200px;
+            margin: 100px auto 10px auto;
+        }
+        .mylabel{
+            margin-bottom: 5px;
+        }
+        @media (min-width: 1066px){
+            #container
+            {
+                height:1250px;
+            }
+        }
+        @media (max-width: 1066px){
+            #container
+            {
+                height:1330px;
+            }
+        }
+        @media (max-width: 900px){
+            #container
+            {
+                height:1350px;
+            }
+            #dot{
+                display: none;
+            }
+        }
+        @media (max-width: 800px){
+            #container
+            {
+                height:1400px;
+            }
+        }
+        @media (max-width: 700px){
+            #container
+            {
+                height:1450px;
+            }
+        }
+        @media (max-width: 600px){
+            #container
+            {
+                height:1500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="Top"><p>Top</p></div>
+    <div id="header">
+        <img src="img/LOGO.png" alt="LOGO"> 
+    </div>
+    <div id="nav" class="clearFloat">
+        <ul>
+            <li><a href="knowledge.html"><i class="fas fa-bookmark"></i>小小知識</a></li>
+            <li><a href="adopter.html"><i class="fas fa-handshake"></i>我要送養</a></li>
+            <li class="active"><a href="adopt.html"><i class="fas fa-paw"></i>我要領養</a></li>
+            <li><a href="bow-wow.html"><i class="fas fa-dog"></i>汪汪介紹</a></li>
+            <li><a href="meow.html"><i class="fas fa-cat"></i>喵喵介紹</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i>關於我們</a></li>
+        </ul>
+    </div>
+    <div id="nav2">
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fas fa-align-justify fa-2x"></i></button>
+            <div class="dropdown-content">
+                <li><a href="index.html">關於我們</a></li>
+                <li><a href="meow.html">喵喵介紹</a></li>
+                <li><a href="bow-wow.html">汪汪介紹</a></li>
+                <li class="active"><a href="adopt.html">我要領養</a></li>
+                <li><a href="adopter.html">我要送養</a></li>
+                <li><a href="knowledge.html">小小知識</a></li>
+          </div>
+        </div>
+    </div>
+    <div id="dot">
+        <img src="img/image2.png" alt="dot" width="200px">
+    </div>
+    <div id="top">
+        <a href="#Top"><img src="img/chevron-upwards-arrow.png" alt="top" width="40px"></a>
+    </div>
+    
+    <div id="container">
+
+      <div>
+      <span style="text-align: left; line-height: 25px;">
+        <div style="text-align: center;font-size: 25px;font-weight: bold;">領養須知</div><br>
+          ✿ 成年貓狗已做過結紮，第一次體內跟體外的驅蟲！幼年貓狗須繳結紮保證金，會於結紮後檢附證明退還<br>
+          ✿ 家人的支持以及意見是很重要的，必須經過家人或室友同意 (住學校宿舍不行)<br>
+          ✿ 有『三個月』的觀察期，若無法與貓狗適應或其他任何理由請把貓狗還我們。(若有走失或送養、死亡、無法飼養等情況，一定要告知送養人，請勿擅自作主) <br>
+          ✿ 認養人不得以「野放」的方式飼養貓狗，因為貓狗單獨外出可能會面臨很多危險，可能會不小心被車撞到，或是跟其他的貓狗打架感染未知疾病等<br>
+          ✿ 請大家要小心門窗，有的貓狗很聰明會自己開門窗外出，所以大家務必小心！<br>
+         
+      <span style="font-weight: bold;"> 
+        如果您想要認養哪一隻貓狗，請依照原文回覆，並記得附上您的聯絡方式！我們會再跟你聯繫，謝謝！<br>
+      （每隻貓狗在中途心中都很重要，所以請表現認養的誠意）
+      </span>
+      </span>
+      </div>
+      <br>
+      <br>
+       <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="mylabel">姓名</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="王水母">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="mylabel">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="mylabel">手機</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0954215417">
+          </div>
+      
+          <div class="form-group">
+            <label for="exampleFormControlSelect2" class="mylabel">欲領養人性別</label>
+             <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>帥哥</option>
+              <option>美女</option>
+              <option>我不想說</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="mylabel">寵物編號</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          </div>
+          
+           <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="mylabel">領養動機</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="mylabel">自我介紹</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="mylabel">想說的話</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">我同意以上條款</label>
+          </div>
+          <br>
+         <button type="button" class="btn btn-outline-info">送出</button>
+        </form>
+    </div>
+    
+    <div id="footer">
+        <img src="img/471040263_d6d531b85c_b.jpg" alt="picture">
+        <p>【 聯絡我們 】</p>
+        <p>FB、IG：毛起來 – 以領養代替購買</p>
+        <p>電話：(03) 123 - 4567</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

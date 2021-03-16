@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maocilai</title>
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="icon" href="img/medal.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        .cat {
+            width: 200px;
+            display: inline-block;
+            margin: 20px 20px;
+            box-shadow: 3px 5px 10px lightgray;
+            border-radius: 15px;
+        }
+
+        .cat img {
+            width: 100%;
+            height: 200px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+
+        .cat p {
+            padding: 6px 0px;
+            text-align: center;
+        }
+
+        .allcat {
+            width: 30%;
+            display: inline-block;
+        }
+
+        .page-link {
+            color: gray;
+        }
+
+        .mybotton {
+            margin-top: 5px;
+        }
+
+        .mybotton a {
+            margin-top: 5px;
+            color: #17a2b8;
+        }
+
+        .mybotton a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .btn-outline-info:hover {
+            color: #fff;
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+        }
+
+        @media (min-width: 1066px) {
+            .cat {
+                width: 250px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 850px) {
+            .cat {
+                width: 250px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 250px;
+            }
+
+            .allcat {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .cat {
+                width: 200px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 200px;
+            }
+
+            .allcat {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            #topPicture {
+                width: 100%;
+                margin: 50px 0px;
+            }
+
+            .cat {
+                width: 100%;
+                margin: 20px 0px;
+                border-radius: 0px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 500px;
+                border-top-right-radius: 0px;
+                border-top-left-radius: 0px;
+            }
+
+            .allcat {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="Top">
+        <p>Top</p>
+    </div>
+    <div id="header">
+        <img src="img/LOGO.png" alt="LOGO">
+    </div>
+    <div id="nav" class="clearFloat">
+        <ul>
+            <li><a href="knowledge.html"><i class="fas fa-bookmark"></i>小小知識</a></li>
+            <li><a href="adopter.html"><i class="fas fa-handshake"></i>我要送養</a></li>
+            <li><a href="adopt.html"><i class="fas fa-paw"></i>我要領養</a></li>
+            <li><a href="bow-wow.html"><i class="fas fa-dog"></i>汪汪介紹</a></li>
+            <li class="active"><a href="meow.html"><i class="fas fa-cat"></i>喵喵介紹</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i>關於我們</a></li>
+        </ul>
+    </div>
+    <div id="nav2">
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fas fa-align-justify fa-2x"></i></button>
+            <div class="dropdown-content">
+                <li><a href="index.html">關於我們</a></li>
+                <li class="active"><a href="meow.html">喵喵介紹</a></li>
+                <li><a href="bow-wow.html">汪汪介紹</a></li>
+                <li><a href="adopt.html">我要領養</a></li>
+                <li><a href="adopter.html">我要送養</a></li>
+                <li><a href="knowledge.html">小小知識</a></li>
+            </div>
+        </div>
+    </div>
+    <div id="top">
+        <a href="#Top"><img src="img/chevron-upwards-arrow.png" alt="top" width="40px"></a>
+    </div>
+    <div id="topPicture">
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/ddb6165f-59b0-442c-b985-8df6d1ed52a6_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：A1903 〗</p>
+                    <p>性別：公</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/19</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98748&AcceptNum=AAADG2019051903&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/db2adf48-8462-43fa-b5ad-55c6590b04b3_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：A1713 〗</p>
+                    <p>性別：母</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/17</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98607&AcceptNum=AAADG2019051713&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/59b46b73-b580-4579-b639-a99be2421213_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：R7002 〗</p>
+                    <p>性別：公</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/17</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98624&AcceptNum=RAAAG1080517002&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/a3.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：Q6002 〗</p>
+                    <p>性別：母</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/16</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98475&AcceptNum=QAAAG1080516002&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/c34136ed-4e53-4f79-82a4-2b88032c4ae4_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：T6002 〗</p>
+                    <p>性別：公</p>
+                    <p>品種：金吉拉</p>
+                    <p>入所日期：2019/05/16</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98596&AcceptNum=TAAAG1080516002&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/d6677e56-517d-43eb-ad85-eb726608b90c_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：A1602 〗</p>
+                    <p>性別：公</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/16</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98476&AcceptNum=AAADG2019051602&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/f9f849d8-4928-40d2-b6e4-91d78d614e6e_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：A1604 〗</p>
+                    <p>性別：公</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/16</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98478&AcceptNum=AAADG2019051604&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/a4.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：R1503 〗</p>
+                    <p>性別：母</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/15</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98714&AcceptNum=1080515C03&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="allcat">
+            <div class="cat">
+                <img src="img/96404d4d-5a8c-479a-a021-9e3b1789d67a_org.jpg" alt="cat">
+                <div class="topWord">
+                    <p class="bloder">〖 收容編號：C1501 〗</p>
+                    <p>性別：母</p>
+                    <p>品種：混種貓</p>
+                    <p>入所日期：2019/05/15</p>
+                    <div class="mybotton"><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceList.aspx?Id=98711&AcceptNum=1080515C01&PageType=Adopt" target="_blank"><button type="button" class="btn btn-outline-info">詳細介紹</button></a></div>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="footer">
+        <img src="img/471040263_d6d531b85c_b.jpg" alt="picture">
+        <p>【 聯絡我們 】</p>
+        <p>FB、IG：毛起來 – 以領養代替購買</p>
+        <p>電話：(03) 123 - 4567</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
